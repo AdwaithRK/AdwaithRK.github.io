@@ -1,0 +1,180 @@
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+header > div {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    border-top: 1px solid rgb(214, 209, 209);
+    border-bottom: 2px solid rgb(214, 209, 209);
+}
+.section-1 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-1 div {
+
+    margin: auto;
+}
+.section-1 h2 {
+    color: rgb(155, 155, 155);
+    font-size: 35px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+.section-2 {
+    display: flex;
+    margin-right: 50px;
+}
+.section-2 > * {
+    width: 50%;
+
+}
+.section-2 > article {
+    background-color: #F0F0F0;
+    text-align: left;
+    padding: 80px;
+    margin-left: 70px;
+    width: 50%;
+}
+.pcolor {
+    color: rgb(155, 155, 155);
+    font-weight: 20px;
+    line-height: 30px;
+    font-family: Arial;
+}
+.section-3 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.colorh3 {
+    font-style: normal;
+}
+.colorp{
+    color: rgb(155, 155, 155);
+}
+.line {
+    width: 40px;
+    background-color: black;
+    height: 2px;
+}
+.line1 {
+    width: 40px;
+    background-color: black;
+    height: 2px;
+    float: left;
+}
+.imagesize {
+    width: 70%;
+    height: 170px;
+    padding: 20px;
+    
+}
+.section-3 > div {
+    width: 25%;
+    padding: 60px;
+}
+.section-3 > div {
+    text-align: center;
+}
+.section-4 {
+    background-color: #F0F0F0;
+    padding: 70px;
+}
+.ul {
+    font-size: 17px;
+    list-style: none;
+    padding: 1px;
+    margin: 0;
+}
+.li {
+    padding: 18px;
+}
+.li::before {
+  content: "• ";
+  color: rgb(21, 176, 148); 
+}
+.section-5 {
+    background-image: url(assets/img-1.jpg);
+    height: 563px;
+}
+.manimage {
+    width: 50%;
+    padding: 80px;
+    text-align: left;
+}
+.formfield {
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(222, 223, 224);
+}
+.formfield1 {
+    width: 100%;
+    padding: 10px;
+}
+.section-6 {
+    display: flex;
+    flex-direction: row;
+}
+.sent-message{
+    padding: 20px;
+}
+.section-6 > div {
+    width: 50%;
+}
+.section-6 input {
+    display: block;
+}
+.button {
+    padding: 10px;
+    margin: 60px;
+    width: 110px;
+    text-align: center;
+    margin-left: 250px;
+    background-color: rgb(21, 176, 148);
+}
+.office-address {
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    background-color: #F0F0F0;
+
+}
+.office-address > div {
+    width: 50%;
+}
+html {
+    background-color: white;
+}
+.get-inbox {
+    padding: 9px;
+    margin: 9px;
+    background-color: rgb(21, 176, 148);
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.more {
+    color: rgb(21, 176, 148);
+}
+.sign-in {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+.left-align {
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.right-align {
+    margin-top: 18px;
+}
+.list {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
